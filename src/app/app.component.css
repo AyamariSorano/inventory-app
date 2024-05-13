@@ -1,0 +1,14 @@
+.app-container {
+    display: grid;
+    grid-template-areas:
+      "equipment character main-inventory"
+      "quick-access quick-access quick-access"
+      "stash stash stash";
+    grid-template-columns: 1fr 2fr 3fr;
+  }
+  .equipment { grid-area: equipment; }
+  .character-doll { grid-area: character; }
+  .main-inventory { grid-area: main-inventory; }
+  .quick-access { grid-area: quick-access; }
+  .stash { grid-area: stash; }
+  

@@ -1,1 +1,5 @@
-<p>equipment works!</p>
+<div class="equipment-slot" *ngFor="let slot of equipmentSlots">
+    <div>{{ slot.type }}</div>
+    <div class="item" *ngIf="slot.item">{{ slot.item.name }}</div>
+  </div>
+  

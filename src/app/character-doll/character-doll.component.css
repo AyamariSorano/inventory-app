@@ -1,0 +1,6 @@
+.character-image img {
+    width: 100%;
+    height: auto;
+    display: block; /* Убедитесь, что картинка не имеет отступов вокруг */
+  }
+  

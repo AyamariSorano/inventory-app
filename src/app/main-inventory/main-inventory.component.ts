@@ -5,8 +5,12 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './main-inventory.component.html',
-  styleUrl: './main-inventory.component.css'
+  styleUrls: ['./main-inventory.component.css']
 })
 export class MainInventoryComponent {
-
+  items = [
+    { name: "First Aid Kit", width: 1, height: 1 },
+    { name: "Rifle", width: 2, height: 1 },
+    { name: "Ammo", width: 1, height: 1 }
+  ];
 }

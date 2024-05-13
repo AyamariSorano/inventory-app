@@ -5,8 +5,11 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './quick-access.component.html',
-  styleUrl: './quick-access.component.css'
+  styleUrls: ['./quick-access.component.css']
 })
 export class QuickAccessComponent {
-
+  quickAccessItems = [
+    { name: "Potion" },
+    { name: "Magic Scroll" }
+  ];
 }

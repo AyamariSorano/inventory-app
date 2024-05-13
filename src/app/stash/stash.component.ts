@@ -5,8 +5,11 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './stash.component.html',
-  styleUrl: './stash.component.css'
+  styleUrls: ['./stash.component.css']
 })
 export class StashComponent {
-
+  stashItems = [
+    { name: "Extra Ammo" },
+    { name: "Backup Weapon" }
+  ];
 }

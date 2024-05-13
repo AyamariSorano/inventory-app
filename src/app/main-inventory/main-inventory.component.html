@@ -1,1 +1,6 @@
-<p>main-inventory works!</p>
+<div class="inventory-grid">
+    <div *ngFor="let item of items" class="inventory-item" [style.width]="item.width + 'em'" [style.height]="item.height + 'em'">
+      {{ item.name }}
+    </div>
+  </div>
+  

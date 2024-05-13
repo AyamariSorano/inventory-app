@@ -1,0 +1,13 @@
+.inventory-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Предположим, что у вас 4 колонки */
+    gap: 10px;
+  }
+  
+  .inventory-item {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
