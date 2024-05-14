@@ -1,0 +1,31 @@
+{
+    "mainInventorySize": { "rows": 5, "columns": 4 },
+    "quickAccessLength": 5,
+    "items": [
+      {
+        "id": "item1",
+        "name": "First Aid Kit",
+        "width": 1,
+        "height": 1,
+        "weight": 0.5,
+        "image": "assets/images/first_aid_kit.png"
+      },
+      {
+        "id": "item2",
+        "name": "Rifle",
+        "width": 2,
+        "height": 1,
+        "weight": 3.0,
+        "image": "assets/images/rifle.png"
+      },
+      {
+        "id": "item3",
+        "name": "Ammo",
+        "width": 1,
+        "height": 1,
+        "weight": 0.2,
+        "image": "assets/images/ammo.png"
+      }
+    ]
+  }
+  

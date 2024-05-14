@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+.app-container {
+    display: grid;
+    grid-template-areas:
+      "equipment character main"
+      "equipment character backpack"
+      "quick-access quick-access quick-access"
+      "stash stash stash";
+    grid-template-columns: 1fr 2fr 3fr;
+  }
+  
+  .equipment { grid-area: equipment; }
+  .character-doll { grid-area: character; }
+  .main-inventory { grid-area: main; }
+  .backpack { grid-area: backpack; }
+  .quick-access { grid-area: quick-access; }
+  .stash { grid-area: stash; }
+  

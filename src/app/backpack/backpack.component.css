@@ -1,0 +1,13 @@
+.backpack-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); /* Автоматическое определение количества колонок */
+    gap: 10px;
+  }
+  
+  .backpack-item {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

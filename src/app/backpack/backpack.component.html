@@ -1,0 +1,6 @@
+<div class="backpack-grid">
+    <div *ngFor="let item of backpackItems" class="backpack-item" [style.width]="item.width + 'em'" [style.height]="item.height + 'em'">
+      {{ item.name }}
+    </div>
+  </div>
+  
